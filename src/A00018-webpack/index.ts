@@ -1,1 +1,3 @@
-console.log('ola mundo');
+import moduleConsole from './mod';
+
+moduleConsole();
