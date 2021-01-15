@@ -2,7 +2,7 @@
 
 let x = 10; // eslint-disable-line
 x = 0b1010;
-x = 'Thiago';
+//x = 'Thiago';
 
 let y: 10 = 10; // eslint-disable-line
 const y2 = 10;
@@ -12,7 +12,7 @@ const person = {
   age: 30 as const,
 };
 
-person.age = 34;
+//person.age = 34;
 
 function chooseColor(color: 'Red' | 'Green' | 'Pink'): string {
   return color;

@@ -5,9 +5,9 @@ const objA = {
 };
 
 // uma vez que o tipo foi inferido, no caso acima de string, eu não consigo mudá-lo qdo tento reatribuir um novo tipo
-objA.keyB = true;
+//objA.keyB = true;
 // criar um novo valor tb nao é possivel
-objA.keyC = 'teste';
+//objA.keyC = 'teste';
 
 // criar um objeto que possa receber outras chaves
 const objB: {
