@@ -2,34 +2,27 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/A00018-webpack/index.ts":
-/*!*************************************!*\
-  !*** ./src/A00018-webpack/index.ts ***!
-  \*************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ "./src/A00019-exercicio/exercicio.ts":
+/*!*******************************************!*\
+  !*** ./src/A00019-exercicio/exercicio.ts ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var mod_1 = __importDefault(__webpack_require__(/*! ./mod */ "./src/A00018-webpack/mod.ts"));
-mod_1.default();
+__webpack_require__(/*! ./form-control */ "./src/A00019-exercicio/form-control.ts");
 
 
 /***/ }),
 
-/***/ "./src/A00018-webpack/mod.ts":
-/*!***********************************!*\
-  !*** ./src/A00018-webpack/mod.ts ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ "./src/A00019-exercicio/form-control.ts":
+/*!**********************************************!*\
+  !*** ./src/A00019-exercicio/form-control.ts ***!
+  \**********************************************/
+/***/ (() => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.default = (function () {
-    console.log('Olá eu sou um módulo importado');
-});
+console.log('form control');
 
 
 /***/ })
@@ -53,7 +46,7 @@ exports.default = (function () {
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -62,8 +55,8 @@ exports.default = (function () {
 /************************************************************************/
 /******/ 	// startup
 /******/ 	// Load entry module
-/******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	__webpack_require__("./src/A00018-webpack/index.ts");
+/******/ 	__webpack_require__("./src/A00019-exercicio/exercicio.ts");
+/******/ 	// This entry module used 'exports' so it can't be inlined
 /******/ })()
 ;
 //# sourceMappingURL=bundle.js.map
